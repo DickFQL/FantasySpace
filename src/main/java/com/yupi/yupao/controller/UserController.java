@@ -143,7 +143,12 @@ public class UserController {
         return ResultUtils.success(userPage);
     }
 
-
+    /**
+     * 修改个人信息
+     * @param user
+     * @param request
+     * @return
+     */
     @PostMapping("/update")
     public BaseResponse<Integer> updateUser(@RequestBody User user, HttpServletRequest request) {
         // 校验参数是否为空
@@ -154,6 +159,7 @@ public class UserController {
         int result = userService.updateUser(user, loginUser);
         return ResultUtils.success(result);
     }
+
 
     @PostMapping("/delete")
     public BaseResponse<Boolean> deleteUser(@RequestBody long id, HttpServletRequest request) {

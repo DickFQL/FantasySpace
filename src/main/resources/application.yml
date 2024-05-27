@@ -5,7 +5,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: yupao-backend
+    name: fantasySpace
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

@@ -2,6 +2,7 @@ package com.yupi.yupao.once.importuser;
 
 import com.yupi.yupao.mapper.UserMapper;
 import com.yupi.yupao.model.domain.User;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StopWatch;
 
@@ -23,6 +24,7 @@ public class InsertUsers {
      * 批量插入用户
      */
 //    @Scheduled(initialDelay = 5000, fixedRate = Long.MAX_VALUE)
+    
     public void doInsertUsers() {
         StopWatch stopWatch = new StopWatch();
         System.out.println("goodgoodgood");

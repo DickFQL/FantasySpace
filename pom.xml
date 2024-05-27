@@ -11,10 +11,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yupi</groupId>
-    <artifactId>fantasySpace-backend</artifactId>
+    <artifactId>fantasySpace</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fantasySpace-backend</name>
-    <description>fantasySpace-backend</description>
+    <name>fantasySpace</name>
+    <description>fantasySpace</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
